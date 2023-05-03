@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerProxy</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerProxy.Controllers.AccountController.getAccountSelectFields(SwaggerProxy.Models.GetAccountSelectFields001,System.String)">
+              <summary>
+             Get Account Select Fields example 1
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned. 
+             
+             Sample request:
+             
+                 {
+                   "Request": {
+                   
+                     "Attributes": {
+                     "MessageId": "1",
+                     "BranchId": "1"
+                      },
+                   "AccountNumber": "0001234560",
+                "Credentials": {
+                 "AdministrativeCredentials": {
+                  "Password": "*******"
+                          }
+                     },
+                  "DeviceInformation": {
+                  "Attributes": {
+                    "DeviceType": "Computacenter",
+                    "DeviceNumber": "123456"
+                  },
+                    "ElementValue": ""
+                 },
+                 "SelectableFields": {
+                  "IncludeAllAccountFields": "false",
+                  "ShareSelectableFields":{
+                    "ShareFields":{
+                    "Id":"true",
+                    "Type":"true"
+                      }
+                     }
+                    }
+                   }
+                  }
+             </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields002(SwaggerProxy.Models.GetAccountSelectFields002,System.String)">
+              <summary>
+             Get Account Select Fields Example 2
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+               <remarks>
+               Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+            Sample request:
+             
+                {
+                "Request": {
+                "Attributes": {
+                "MessageId": "1",
+                "BranchId": "1"
+                },
+                "AccountNumber": "0001234560",
+                "Credentials": {
+                 "AdministrativeCredentials": {
+                  "Password": "*******"
+                  }
+                },
+                "DeviceInformation": {
+                  "Attributes": {
+                  "DeviceType": "Computacenter",
+                  "DeviceNumber": "123456"
+                },
+                "ElementValue": ""
+                },
+                "SelectableFields": {
+                   "IncludeAllAccountFields": "false",
+                   "ShareSelectableFields":{
+                   "MicrAcctNumber":"true",
+                   "AvailableBalance":"true",
+                   "Balance":"true",
+                   "Description":"true",
+                   "DivRate":"true",
+                   "DivYtd":"true",
+                   "DividendDue":"true",
+                   "Id":"true",
+                   "Type":"true"
+                     }
+                    }
+                   }
+                  }
+                 }
+             </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields003(SwaggerProxy.Models.GetAccountSelectFields003,System.String)">
+              <summary>
+             Get Account Select Fields Example 3
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+               <remarks>
+               Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+            Sample request:
+             
+                {
+                "Request": {
+                "Attributes": {
+                "MessageId": "1",
+                "BranchId": "1"
+                },
+                "AccountNumber": "0001234560",
+                "Credentials": {
+                 "AdministrativeCredentials": {
+                  "Password": "*******"
+                  }
+                },
+                "DeviceInformation": {
+                  "Attributes": {
+                  "DeviceType": "Computacenter",
+                  "DeviceNumber": "123456"
+                },
+                "ElementValue": ""
+                },
+                "SelectableFields": {
+                   "IncludeAllAccountFields": "false",
+                   "ShareSelectableFields":{
+                   "AvailableBalance":"true",
+                   "Balance":"true",
+                   "DivRate":"true",
+                   "DivYtd":"true",
+                   "DividendDue":"true
+                   "Type":"true"
+                     }
+                    }
+                   }
+                  }
+                 }
+             </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields005(SwaggerProxy.Models.GetAccountSelectFields005,System.String)">
+              <summary>
+             Get Account Select Fields Example 5
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+               Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+              
+             Sample request:
+             
+                  {
+                    "Request": 
+                   {
+                    "Attributes":  
+                    {
+                     "MessageId": "1",
+                     "BranchId": "1"
+                    },
+                   "AccountNumber": "0001234560",
+                   "Credentials": 
+                   {
+                   "AdministrativeCredentials": 
+                   {
+                   "Password": "*******"
+                   }
+                   },
+                 "DeviceInformation": 
+                 {
+                   "Attributes": 
+                   {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                   },
+                   "ElementValue": ""
+                   },
+                  "SelectableFields":
+                  {
+                    "IncludeAllAccountFields": "false",
+                    "NameSelectableFields":{
+                    "IncludeAllNameFields":"false",
+                    "NameFields":
+                    {
+                     "BirthDate":"true"
+                     }
+                    }
+                   }
+                  }
+                 }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields006(SwaggerProxy.Models.GetAccountSelectFields006,System.String)">
+              <summary>
+             Get Account Select Fields Example 6
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+               Method getAccountSelectFields returns field 
+               values from a record specified by ID or locator, but it also allows you to
+               specify which field values you want returned from that record and which
+               child records and fields you want returned.
+             
+             
+             Sample request:
+             
+                 {
+                   "Request": {
+                    "Attributes": {
+                     "MessageId": "1",
+                     "BranchId": "1"
+                      },
+                     "AccountNumber": "0001234560",
+                     "Credentials": {
+                      "AdministrativeCredentials": {
+                      "Password": "*******"
+                   }
+                 },
+                    "DeviceInformation": {
+                    "Attributes": {
+                        "DeviceType": "Computacenter",
+                        "DeviceNumber": "123456"
+                  },
+                    "ElementValue": ""
+                  },
+                    "SelectableFields": {
+                      "IncludeAllAccountFields": "false",
+                      "NameSelectableFields":{
+                         "IncludeAllNameFields":"false",
+                         "NameFields":{
+                           "BirthDate":"true"
+                      }
+                     }
+                    }
+                   }
+                  }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields007(SwaggerProxy.Models.GetAccountSelectFields007,System.String)">
+              <summary>
+             Get Account Select Fields example 7
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+             
+             Sample request:
+             
+                 {
+                      "Request":
+                      {
+                        "Attributes":
+                         {
+                           "MessageId": "1",
+                           "BranchId": "1"
+                          },
+                       "AccountNumber": "0001234560",
+                      "Credentials": 
+                       {
+                         "AdministrativeCredentials":
+                         {
+                            "Password": "*******"
+                          }
+                        },
+                      "DeviceInformation": 
+                      {
+                         "Attributes": 
+                         {
+                          "DeviceType": "Computacenter",
+                          "DeviceNumber": "123456"
+                         },
+                       "ElementValue": ""
+                      },
+                       "IncludeAllAccountFields": "false",
+                       "LoanSelectableFields":
+                      {
+                          "IncludeAllLoanFields":"false",
+                          "LoanFields":
+                          {
+                               "Id":"true"
+                           }
+                    	 },
+                       "ShareSelectableFields":
+                       {
+                          "IncludeAllShareFields":"false",
+                           "ShareFields":
+                           {
+                               "Id":"true"
+                            }
+                        }
+                      }
+                    }
+                  }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields008(SwaggerProxy.Models.GetAccountSelectFields008,System.String)">
+              <summary>
+             Get Account Select Fields example 8
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+             
+             Sample request:
+             
+                  {
+                   "Request": {
+                     "Attributes": {
+                     "MessageId": "1",
+                     "BranchId": "1"
+                      },
+                   "AccountNumber": "0001234560",
+                   "Credentials": {
+                   "AdministrativeCredentials": {
+                   "Password": "*******"
+                    }
+                  },
+                   "DeviceInformation": {
+                   "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                   },
+                   "ElementValue": ""
+                  },
+                  "SelectableFields": {
+                  "IncludeAllAccountFields": "false",
+            	     "CardSelectableFields":{
+                     "IncludeAllCardFields":"false",
+                     "CardFields":{
+                         "ActiveDate":"true",
+                         "CloseDate":"true",
+                         "IssueDate":"true",
+                         "Number":"true"
+                          }
+            		       }
+                    }
+                   }
+                 }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields009(SwaggerProxy.Models.GetAccountSelectFields009,System.String)">
+              <summary>
+             Get Account Select Fields example 9
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+             
+             Sample request:
+             
+                   {
+                      "Request": {
+                      "Attributes": {
+                      "MessageId": "1",
+                      "BranchId": "1"
+                      },
+                     "AccountNumber": "0001234560",
+                     "Credentials": {
+                        "AdministrativeCredentials": {
+                        "Password": "*******"
+                        }
+                     },
+                      "DeviceInformation": {
+                     "Attributes": {
+                          "DeviceType": "Computacenter",
+                          "DeviceNumber": "123456"
+                           },
+                     "ElementValue": ""
+                      },
+                      "IncludeAllAccountFields": "false",
+                      "LoanSelectableFields":{
+                      "IncludeAllLoanFields":"false",
+                      "LoanFields":{
+                           "Id":"true"
+                         }
+                        }
+                       }
+                      }
+                     }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields010(SwaggerProxy.Models.GetAccountSelectFields010,System.String)">
+              <summary>
+             Get Account Select Fields example 10
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+             
+             Sample request:
+             
+                   {
+                   "Request": {
+                        "Attributes": {
+                         "MessageId": "1",
+                         "BranchId": "1"
+                         },
+                       "AccountNumber": "0001234560",
+                        "Credentials": {
+                             "AdministrativeCredentials": {
+                              "Password": "*******"
+                            }
+                        },
+                        "DeviceInformation": {
+                        "Attributes": {
+                            "DeviceType": "Computacenter",
+                            "DeviceNumber": "123456"
+                         },
+                       "ElementValue": ""
+                       },
+                       "SelectableFields": {
+                        "IncludeAllAccountFields": "false",
+                        "NameSelectableFields":{
+                        "IncludeAllNameFields":"false",
+                        "NameFields":{
+                             "HomePhone":"true",
+                            "WorkPhone":"true"
+                       }
+                      }
+                     }
+                    }
+                   }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields011(SwaggerProxy.Models.GetAccountSelectFields011,System.String)">
+              <summary>
+             Get Account Select Fields example 11
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+             
+             Sample request:
+             
+                   {
+                      "Request": {
+                        "Attributes": {
+                        "MessageId": "1",
+                        "BranchId": "1"
+                      },
+                      "AccountNumber": "0001234560",
+                      "Credentials": {
+                           "AdministrativeCredentials": {
+                           "Password": "*******"
+                       }
+                      },
+                     "DeviceInformation": {
+                     "Attributes": {
+                     "DeviceType": "Computacenter",
+                     "DeviceNumber": "123456"
+                      },
+                     "ElementValue": ""
+                     },
+                    "SelectableFields": {
+                       "IncludeAllAccountFields": "false",
+            	          "PreferenceSelectableFields":{
+                           "IncludeAllPreferenceFields":"false",
+                           "PreferenceFields":{
+                                "AudioAccess":"true"
+                         }
+            		       }
+                       }
+                      }
+                     }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields012(SwaggerProxy.Models.GetAccountSelectFields012,System.String)">
+              <summary>
+             Get Account Select Fields example 12
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method getAccountSelectFields returns field 
+             values from a record specified by ID or locator, but it also allows you to
+            specify which field values you want returned from that record and which
+            child records and fields you want returned.
+            
+             
+             Sample request:
+             
+                  {
+                      "Request": {
+                        "Attributes": {
+                        "MessageId": "1",
+                        "BranchId": "1"
+                         },
+                      "AccountNumber": "0001234560",
+                      "Credentials": {
+                         "AdministrativeCredentials": {
+                         "Password": "*******"
+                          }
+                        },
+                      "DeviceInformation": {
+                      "Attributes": {
+                        "DeviceType": "Computacenter",
+                        "DeviceNumber": "123456"
+                         },
+                       "ElementValue": ""
+                        },
+                       "SelectableFields": {
+                          "IncludeAllAccountFields": "false",
+            		         "LoanSelectableFields":{
+                         "IncludeAllLoanFields":"true",
+                         "LoanFields":{}
+                           }
+                          }
+                         }
+                        }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetShareTransactionPagedList(SwaggerProxy.Models.GetShareTransactionPagedList,System.String)">
+              <summary>
+             Get Share Transaction Paged List Sample
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              Method  returns the values of all fields in 
+             multiple records of the specified type.You can limit the number of records
+             to return and provide a number of records to skip.
+             
+             For example, the following getShare message returns the 
+             values of the specified fields in Share ID 20 (the checking account)
+            
+             
+             Sample request:
+             
+                   {
+                      "Request": {
+                      "Attributes": {
+                        "MessageId": "1",
+                         "BranchId": "1"
+                      },
+                      "AccountNumber": "0001234560",
+                      "ShareId":"0020",
+                      "Credentials": {
+                      "AdministrativeCredentials": {
+                     "Password": "*******"
+                      }
+                     },
+                    "DeviceInformation": {
+                      "Attributes": {
+                         "DeviceType": "Computacenter",
+                         "DeviceNumber": "123456"
+                         },
+                        "ElementValue": ""
+                      },
+                    "PagingRequestContext":{
+                      "NumberOfRecordsToReturn":"5",
+                      "NumberOfRecordsToSkip":"0"
+                    }
+                   }
+                  }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.SearchShareTransactionPagedSelectFields(SwaggerProxy.Models.searchShareTransactionPagedSelectFields,System.String)">
+              <summary>
+             Get Share Transaction Paged with selected fields Sample
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+             returns field values from all the selected child records of each record. 
+            For example, the following searchShareTransactionPagedSelectFields message returns
+            the values of the specified fields in all shares, all fields in all Share Hold
+            records of each share, and the specified fields of all Share Name records
+            under each share
+            
+            
+             
+             Sample request:
+             
+                   {
+                       "Request": {
+                        "Attributes": {
+                          "MessageId": "1",
+                          "BranchId": "1"
+                        },
+                      "AccountNumber": "0001234560",
+                      "ShareId":"0020",
+                      "Credentials": {
+                          "AdministrativeCredentials": {
+                          "Password": "*******"
+                        }
+                       },
+                     "DeviceInformation": {
+                        "Attributes": {
+                          "DeviceType": "Computacenter",
+                          "DeviceNumber": "123456"
+                           },
+                       "ElementValue": ""
+                         },
+                     "PagingRequestContext":{
+                          "NumberOfRecordsToReturn":"5",
+                          "NumberOfRecordsToSkip":"0"
+                         }
+                     "SelectableFields":{
+                      "IncludeAllShareTransactionFields":"true",
+                      "ShareTransactionFields":{}
+                       },
+                       "Query":"Comment='VISA PAYMENT'"
+                      }
+                     }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetAccountSelectFields(SwaggerProxy.Models.GetIRSSelectableFields,System.String)">
+              <summary>
+             Get IRS Fields  Sample
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              return the values of selected fields in records of the selected type that match 
+              the search criteria you specify.You can limit the number of records and provide a
+             number of records to skip.
+            
+            
+             
+             Sample request:
+             
+                  {
+                      "Request": {
+                        "Attributes": {
+                         "MessageId": "1",
+                         "BranchId": "1"
+                        },
+                      "AccountNumber": "0001234560",
+                       "Credentials": {
+                            "AdministrativeCredentials": {
+                            "Password": "*******"
+                             }
+                         },
+                       "DeviceInformation": {
+                       "Attributes": {
+                          "DeviceType": "Computacenter",
+                          "DeviceNumber": "123456"
+                         },
+                       "ElementValue": ""
+                      },
+                      "PagingRequestContext":{
+                          "NumberOfRecordsToReturn":"5",
+                          "NumberOfRecordsToSkip":"0"
+                        }
+                      "SelectableFields": {
+                      "IncludeAllAccountFields": "false",
+                      "IrsSelectableFields":{
+                            "IncludeAllIrsFields":"false",
+                             "IrsFields":{
+                                "ActualMaxContribution":"true",
+                                 "IrsHolderBirthDate":"true",
+                                 "IrsPlan":"true",
+                                 "OpenDate":"true"
+                            }
+                          }
+                          }
+                         }
+                        }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.GetIrsSelectFields(SwaggerProxy.Models.GetIrsSelectFields,System.String)">
+              <summary>
+             Get IRS  Selected Fields  Sample
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              return the values of selected  IRS fields in records of the selected type that match 
+              the search criteria you specify.You can limit the number of records and provide a
+             number of records to skip.
+            
+            
+             
+             Sample request:
+             
+                  {
+                      "Request": {
+                        "Attributes": {
+                         "MessageId": "1",
+                         "BranchId": "1"
+                        },
+                      "AccountNumber": "0001234560",
+                       "Credentials": {
+                            "AdministrativeCredentials": {
+                            "Password": "*******"
+                             }
+                         },
+                       "DeviceInformation": {
+                       "Attributes": {
+                          "DeviceType": "Computacenter",
+                          "DeviceNumber": "123456"
+                         },
+                       "ElementValue": ""
+                      },
+                     "SelectableFields":{
+                           "IncludeAllIrsFields":"false",
+                            "IrsFields":{
+                                "ContrLastYear":"true",
+                                "ContrThisYear":"true",
+                                "ContributionYear":"true",
+                                "DistrLastYear":"true",
+                                "DistrThisYear":"true",
+                                "PayoffAmount":"true"
+                            }
+                           }
+                          }
+                         }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.AccountController.UpdatePreferenceByID(SwaggerProxy.Models.UpdateAcct,System.String)">
+              <summary>
+             Update Account Sample
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              The updatePreferenceByID  allow you to modify fields in a 
+              specified record on the Episys host.You can modify only those fields that
+              are normally accessible to a front-end user.
+            
+             
+             Sample request:
+             
+             
+                  {
+                     "Request": {
+                    "Attributes": {
+                     "MessageId": "1",
+                    "acc:BranchId": "1"
+             
+                      },
+                      "PreferenceLocator":"2",
+                      "PreferenceUpdateableFields":{
+                      "AudioAccess":"1234"
+                     },
+                       "AccountNumber": "0001234560",
+                       "Credentials": {
+                             "AdministrativeCredentials": {
+                       }
+                     },
+                   "DeviceInformation": {
+                   "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                     },
+                       "ElementValue": ""
+                     }
+                    }
+                  }
+             </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.LoanController.getLoan(SwaggerProxy.Models.GetLoan,System.String)">
+             <summary>
+            Get Loan Record example 1
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+             <remarks>
+             
+             Method getLoan returns the Loan record 
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                  "AccountNumber": "0001234560",
+                  "LoanId":"0020",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                   },
+                  }
+                 }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.LoanController.getLoanSelectFields01(SwaggerProxy.Models.GetLoanSelectFields01,System.String)">
+             <summary>
+            Get Loan Select Fields example 1
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+             <remarks>
+             
+             Method getLoan returns the Loan record 
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                  "AccountNumber": "0001234560",
+                  "LoanId":"0020",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                   },
+                   "SelectableFields":{
+                          "IncludeAllLoanFields":"false",
+                          "LoanFields":{
+                               "AccrualStatus":"true",
+                               "GlAccrualStatusOption":"true",
+                               "LastAccrualReversal":"true",
+                              "LedgerAccrual":"true",
+                               "LedgerAccrualDate":"true",
+                              "MtdPriorRateAccrual":"true",
+                             "TotalAccrualReversal":"true"
+                           }
+                          }
+                         }
+                        }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.LoanController.getLoanSelectFields02(SwaggerProxy.Models.GetLoanSelectFields02,System.String)">
+             <summary>
+            Get Loan Select Fields example 2
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+             <remarks>
+             
+             Method getLoan returns the Loan record 
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                  "AccountNumber": "0001234560",
+                  "LoanId":"0020",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                   },
+                    "SelectableFields":{
+                        "IncludeAllLoanFields":"false",
+                        "LoanFields":{
+                            "InterestLastYear":"true",
+                             "InterestRate":"true",
+                             "InterestYtd":"true",
+                             "StatementDate":"true",
+                              "StatementOldBalance":"true",
+                              "StatementNewBalance":"true",
+                               "PayoffAmount":"true"
+                             }
+                            }
+                           }
+                          }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.LoanController.getLoanSelectFields03(SwaggerProxy.Models.GetLoanSelectFields03,System.String)">
+             <summary>
+            Get Loan Select Fields example 3
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+             <remarks>
+             
+             Method getLoan returns the Loan record  with the  selected fields
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                  "AccountNumber": "0001234560",
+                  "LoanId":"0020",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                   },
+                    "SelectableFields":{
+                          "IncludeAllLoanFields":"false",
+                         "LoanFields":{
+                            "Balance":"true",
+                             "DueDate":"true",
+                             "PastDueAmount":"true",
+                             "Payment":"true",
+                             "PayoffAmount":"true"
+                         }
+                       }
+                     }
+                   }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.LoanController.getLoanTransactionPagedListSelectFields(SwaggerProxy.Models.GetLoanTransactionPagedListSelectFields,System.String)">
+              <summary>
+             Get Loan Select Fields example 3
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+              
+              Method getLoan returns the Loan record  with the  selected fields
+             
+             Sample request:
+             
+                 {
+                   "Request": {
+                   
+                     "Attributes": {
+                     "MessageId": "1",
+                     "BranchId": "1"
+                      },
+                   "AccountNumber": "0001234560",
+                   "LoanId":"0020",
+                  "Credentials": {
+                      "AdministrativeCredentials": {
+                      "Password": "*******"
+                      }
+                    },
+                  "DeviceInformation": {
+                  "Attributes": {
+                    "DeviceType": "Computacenter",
+                    "DeviceNumber": "123456"
+                     },
+                    "ElementValue": ""
+                    },
+                    "PagingRequestContext":{
+                    "NumberOfRecordsToReturn":"5",
+                    "NumberOfRecordsToSkip":"0"
+                     },
+                     "SelectableFields":{
+                           "IncludeAllLoanFields":"true",
+                          "LoanTransactionFields":{
+            
+                          }
+                        }
+                      }
+                    }
+             </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.TransactionController.getShare(SwaggerProxy.Models.GetShare,System.String)">
+             <summary>
+            Get Share example 1
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+            
+             <remarks>
+             
+             The following getShare message returns the values of all fields in Share ID Number
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                 
+                  "ShareID":"0020",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                   },
+                  }
+                 }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.TransactionController.getShareSelectFields(SwaggerProxy.Models.GetShareSelectFields,System.String)">
+             <summary>
+            Get Share Select Fields example 
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+            
+             <remarks>
+             
+             getShareSelectFields message returns the values of the selected fields in the Share record and all fields in
+            all Share Transfer records encountered in the Share Record
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                 
+                  "ShareID":"0020",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                   },
+                   "SelectableFields":{
+                       "IncludeAllAccountFields": "false",
+                        "ShareFields":{
+                            "MicrAcctNumber":"true",
+                             "MinimumBalance":"true"
+                       }
+                     }
+                   }
+                 }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.TransactionController.searchCardPagedSelectFields(SwaggerProxy.Models.searchCardPagedSelectFields,System.String)">
+              <summary>
+             Seacrh Card Paged  Select Fields example 
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+             
+              <remarks>
+              When you use a search , you specify criteria for the desired record type within the Query property.
+              The following searchCardPagedSelectFields message returns the values of the specified fields .
+             
+             Sample request:
+             
+                   {
+                  "Request":
+                  {
+                       "Attributes": 
+                      {
+                          "MessageId": "SearchforUnexpiredIssuedCards",
+                           
+                       },
+                        
+                         "AccountNumber": "0000643692",
+                         "HomeBankingPassword": "1950",
+                   
+                        "Credentials": 
+                       {
+                           
+                           "AdministrativeCredentials": 
+                           {
+                               "Password":"s@ZYmxNvBeKNK$QgMCv3"
+                           }
+                       },
+                        
+                        "DeviceInformation": 
+                        {
+                            "Attributes": 
+                            {
+                               "DeviceType": "CC",
+                                "DeviceNumber": "32101"
+                            },
+                            
+                           "ElementValue": ""
+                        },
+                        
+                        "PagingRequestContext": 
+                            {
+                              "NumberOfRecordsToReturn": "2"
+                            },
+                       "SelectableFields": 
+                        {
+                           
+                           "CardFields": 
+                           {
+                            "ChkId": "true",
+                            "Description": "true",
+                           "EffectiveDate": "true",
+                            "IssueDate": "true",
+                           "SavId": "true",
+                            "UsageLimit": "true"
+                           }
+                        },
+                        "Query": "Type=10 and\n (ExpirationDate&gt;{date:'2020-10-12'} or\n ExpirationDate&lt;{date:'1900-01-01'})"
+               
+                    }
+            
+                    }
+             </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Accounts.TransactionController.getName(SwaggerProxy.Models.GetName,System.String)">
+             <summary>
+            Get Name example 
+            </summary>
+            <param BaseURL="URLRequest">operation name</param>
+            
+             <remarks>
+             
+            Returns the values of all fields in a record selected by Name Locator.
+            
+            Sample request:
+            
+                {
+                  "Request": {
+                  
+                    "Attributes": {
+                    "MessageId": "1",
+                    "BranchId": "1"
+                     },
+                 
+                  "AccountNumver":"1234567",
+                  "NameLocator":"Abby Test",
+                 "Credentials": {
+                     "AdministrativeCredentials": {
+                     "Password": "*******"
+                     }
+                   },
+                 "DeviceInformation": {
+                 "Attributes": {
+                   "DeviceType": "Computacenter",
+                   "DeviceNumber": "123456"
+                    },
+                   "ElementValue": ""
+                    }
+                   }
+                 }
+            </remarks>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Find_By_ServiceController.FindBySSN(SwaggerProxy.Models.FindBySSN,System.String)">
+              <summary>
+              Find By SSN
+             </summary>
+             <remarks>
+             The FindBy Service  allow you to look up a member’s account
+             number by  Social Security Number.
+            IMPORTANT :must enable the FindBy Service on the instance
+             </remarks>
+             <param BaseURL="URLRequest">operation name</param>
+        </member>
+        <member name="M:SwaggerProxy.Controllers.Find_By_ServiceController.FindByLookUp(SwaggerProxy.Models.FindByLookUp,System.String)">
+              <summary>
+             Find By Lookup
+             </summary>
+             <param BaseURL="URLRequest">operation name</param>
+              <remarks>
+             All  lookup types are custom to the Credit Union.
+             
+             Note: Lookup records serve two general purposes: 
+             1- Some edit runs use Lookup records to locate the account to which
+             an item should post.Many financial institutions assign checking
+             account numbers that differ significantly from the member's 
+             primary account number.If your financial institution follows this
+            practice, your draft and ACH edit runs almost certainly require
+            Lookup records to locate accounts. 
+            2- You can use Lookup records to cross-reference any identifying
+            number to the Account record.
+            
+             
+            IMPORTANT :must enable the FindBy Service on the instance
+             </remarks>
+        </member>
+    </members>
+</doc>
